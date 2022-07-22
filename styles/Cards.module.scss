@@ -1,0 +1,268 @@
+.mainPageHolder {
+  margin-top: 200px;
+
+  .title {
+    margin-bottom: 40px;
+    margin-top: 0;
+  }
+
+  @media screen and (max-width: 1023px) {
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+    .title {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #E0E0E0;
+  margin-top: 50px;
+  padding: 0 15px;
+
+  @media screen and (max-width: 639px) {
+    font-size: 26px;
+  }
+}
+
+.groups {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    margin: 10px;
+    display: grid;
+    text-align: left;
+
+    &:hover {
+      > a:last-child {
+        filter: drop-shadow(1px 1px 17px #EB6609);
+      }
+    }
+
+    a {
+      text-align: center;
+      cursor: pointer;
+      margin-bottom: 20px;
+
+      @media (max-width: 1256px) {
+        a:last-child {
+          > span {
+            display: block!important;
+            overflow: unset!important;
+            width: 90%!important;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 1023px) {
+    display: none;
+  }
+}
+
+.mobileShow {
+  display: none;
+
+  .carousel {
+    &__item {
+      div {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        > a {
+          &:first-child {
+            display: block;
+            width: 230px;
+            margin: 0 auto 30px;
+          }
+          &:last-child {
+            filter: drop-shadow(1px 1px 17px #EB6609);
+          }
+        }
+      }
+    }
+
+    &__control {
+      width: 100%;
+      display: flex;
+      margin: 15px 0 0 0;
+      justify-content: center;
+
+      .next {
+       margin-left: 30px;
+      }
+      .prev {
+        margin-right: 30px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1023px) {
+    display: block;
+  }
+}
+
+.group {
+  font-family: 'Comic Sans MS';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #E0E0E0;
+}
+
+.cardTitle {
+  font-family: 'Comic Sans MS';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #E0E0E0;
+  padding: 0 15px;
+
+  @media screen and (max-width: 1023px) {
+    margin-top: 80px;
+  }
+
+  @media screen and (max-width: 639px) {
+    font-size: 26px;
+  }
+}
+
+.cardTable {
+  max-width: 1400px;
+  width: 80%;
+  margin: auto;
+
+  &__row {
+    width: 100%;
+    padding: 20px 0;
+    margin-bottom: 100px;
+    display: flex;
+    border: 2px solid;
+    border-image: linear-gradient(to right , #EB6609, #FFD533);
+    border-image-slice: 1;
+
+    > div {
+      padding: 0 20px;
+    }
+
+    &__img, &__title, &__power {
+      border-right: 1px solid #E0E0E0;
+    }
+
+    &__img {
+      width: 25%;
+
+      img {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+      }
+    }
+
+    &__title {
+      width: 15%;
+    }
+
+    &__power {
+      width: 10%;
+    }
+
+    &__ability {
+      width: 50%;
+    }
+
+    &__title, &__power, &__ability {
+      font-family: 'Comic Sans MS';
+      font-style: normal;
+      font-size: 17px;
+      line-height: 110%;
+      text-align: center;
+      letter-spacing: 0.05em;
+      color: #E0E0E0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &__row__header {
+    border: none;
+    margin-bottom: 20px;
+
+    > div {
+      border: none;
+      font-family: 'Comic Sans MS';
+      font-style: normal;
+      font-size: 19px;
+      line-height: 110%;
+      text-align: center;
+      letter-spacing: 0.05em;
+      color: #E0E0E0;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    padding: 0;
+    width: calc(100% - 40px);
+    overflow-x: scroll;
+
+
+    &::-webkit-scrollbar {
+      -webkit-appearance: none;
+
+      &:horizontal {
+        height: 5px;
+        background-color: rgba(255, 255, 255, .21);
+      }
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      border: 0;
+      background-color: #E0E0E0;
+    }
+
+    > div {
+      width: 820px;
+
+      &:last-child{
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+.scrollUp {
+  height: 60px;
+  width: 60px;
+  position: fixed;
+  cursor: pointer;
+  right: 30px;
+  z-index: 200;
+  bottom: 30px;
+  background: linear-gradient(to top, #EB6609, #FFD533);
+  border-radius: 50%;
+  span {
+    font-size: 40px;
+  }
+}

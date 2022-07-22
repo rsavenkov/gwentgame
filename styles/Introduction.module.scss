@@ -1,0 +1,175 @@
+.container {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  min-height: 60vh;
+
+  .imgHolder {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 600px;
+    width: 40%;
+    z-index: 2;
+    background: url("../public/hand-with-cards.png") 0 0 no-repeat;
+    background-size: contain;
+
+    &:before {
+      position: absolute;
+      display: block;
+      content: "";
+      background: #1D1E22;
+      filter: blur(49px);
+      transform: rotate(-30deg);
+      width: 300px;
+      height: 300px;
+      left: -115px;
+      bottom: -25%;
+
+      @media (max-width: 1700px) {
+        bottom: -15%;
+      }
+
+      @media (max-width: 1500px) {
+        bottom: 3%;
+      }
+
+      @media (max-width: 1200px) {
+        bottom: 14%;
+      }
+    }
+  }
+
+  .textHolder {
+    position: relative;
+    z-index: 1;
+    padding-left: 40%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    p {
+      text-align: left;
+      font-family: 'Comic Sans MS';
+      font-style: normal;
+    }
+
+    .h1 {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 120%;
+      letter-spacing: 0.07em;
+      color: #FFD533;
+      text-align: left;
+      margin: 20px 0 15px;
+    }
+
+    .p2 {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0.05em;
+      color: #E0E0E0;
+      margin: 5px 0 40px;
+    }
+
+    a {
+      display: block;
+      text-align: left;
+      width: 207px;
+
+      &:hover {
+        filter: drop-shadow(0 0 4px #FFD533);
+      }
+    }
+  }
+
+  @media screen and (max-width: 1023px) {
+    .textHolder {
+      justify-content: center;
+      width: 100%;
+      padding: 20px;
+      z-index: 2;
+
+      a {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: -80px;
+      }
+    }
+
+    p, .h1, .p2 {
+      text-align: center!important;
+    }
+
+    .imgHolder {
+      position: relative;
+      height: 280px;
+      width: 408px;
+      margin-top: -50px;
+      z-index: 1;
+
+      &:before {
+        width: 150px;
+        height: 150px;
+        bottom: -62px;
+        left: -55px;
+        filter: blur(24px);
+      }
+    }
+  }
+
+  @media screen and (max-width: 639px) {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 40px;
+
+    .textHolder {
+      a {
+        bottom: -150px;
+      }
+
+      .h1 {
+        font-size: 34px;
+        line-height: 120%;
+      }
+    }
+
+    .imgHolder {
+      height: 200px;
+      width: 408px;
+      z-index: 1;
+
+      &:before {
+        width: 150px;
+        height: 170px;
+        bottom: -72px;
+        left: -85px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .textHolder {
+      a {
+        bottom: -120px;
+      }
+    }
+
+    .imgHolder {
+      height: 200px;
+      width: 50%;
+
+      &:before {
+        width: 150px;
+        height: 170px;
+        bottom: -26%;
+        left: -34%;
+      }
+    }
+  }
+
+}

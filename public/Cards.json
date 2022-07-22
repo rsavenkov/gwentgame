@@ -1,0 +1,1664 @@
+[
+  {
+    "name": "north",
+    "title": "Колода фракции «Королевства Севера»",
+    "heroes": [
+      {
+        "card": "Foltest_1",
+        "name": "Фольтест Железный Владыка",
+        "power": "",
+        "ability": "Уничтожает самый сильный осадный отряд или отряды противника, если общая сила его осадных отрядов равна или превышает 10"
+      },
+      {
+        "card": "Foltest_2",
+        "name": "Фольтест Завоеватель",
+        "power": "",
+        "ability": "Удваивает силу всех ваших осадных отрядов, если в этом ряду нет командирского рога"
+      },
+      {
+        "card": "Foltest_3",
+        "name": "Фольтест Корль Темерии",
+        "power": "",
+        "ability": "Возьмите из вашей колоды Мглу и сыграйте эту карту немедленно"
+      },
+      {
+        "card": "Foltest_4",
+        "name": "Фольтест Предводитель Севера",
+        "power": "",
+        "ability": "Отменяет все эффекты погодных карт"
+      },
+      {
+        "card": "Foltest_5",
+        "name": "Фольтест Сын Меделла",
+        "power": "",
+        "ability": "Уничтожает самый сильный дальнобойный отряд или отряды противника, если общая сила его дальнобойных отрядов больше или равна 10 "
+      },
+      {
+        "card": "Geralt",
+        "name": "Геральт из Ривии",
+        "power": "15",
+        "ability": "Герой"
+      },
+      {
+        "card": "Tsirilla",
+        "name": "Цирилла",
+        "power": "15",
+        "ability": "Герой"
+      },
+      {
+        "card": "Vernon",
+        "name": "Вернон Роше",
+        "power": "10",
+        "ability": "Герой"
+      },
+      {
+        "card": "Filippa",
+        "name": "Филиппа Эйльхарт",
+        "power": "10",
+        "ability": "Герой"
+      },
+      {
+        "card": "Esterad",
+        "name": "Эстерад Тиссен",
+        "power": "10",
+        "ability": "Герой"
+      },
+      {
+        "card": "Yan",
+        "name": "Ян Наталис",
+        "power": "10",
+        "ability": "Герой"
+      },
+      {
+        "card": "Triss",
+        "name": "Трисс Меригольд",
+        "power": "7",
+        "ability": "Герой"
+      },
+      {
+        "card": "Ennifer",
+        "name": "Йеннифер из Венгерберга",
+        "power": "7",
+        "ability": "Герой, Медик"
+      },
+      {
+        "card": "Avallakh",
+        "name": "Аваллак'х",
+        "power": "0",
+        "ability": "Герой, шпион"
+      },
+      {
+        "card": "Willen",
+        "name": "Виллентретенмерт",
+        "power": "7",
+        "ability": "Казнь"
+      },
+      {
+        "card": "Vesemir",
+        "name": "Весемир",
+        "power": "6",
+        "ability": ""
+      },
+      {
+        "card": "Zoltan",
+        "name": "Золтан Хивай",
+        "power": "5",
+        "ability": ""
+      },
+      {
+        "card": "Bianka",
+        "name": "Бьянка",
+        "power": "5",
+        "ability": ""
+      },
+      {
+        "card": "Jaskier",
+        "name": "Лютик",
+        "power": "2",
+        "ability": "Командирский рог"
+      },
+      {
+        "card": "Regis",
+        "name": "Эмиель Регис",
+        "power": "5",
+        "ability": ""
+      },
+      {
+        "card": "Boets",
+        "name": "Боец Синих Полосок",
+        "power": "4",
+        "ability": "Прочная связь (в колоде 3 карты)"
+      },
+      {
+        "card": "Zigfrid",
+        "name": "Зигфрид из Денесле",
+        "power": "5",
+        "ability": ""
+      },
+      {
+        "card": "Stennis",
+        "name": "Принц Стэннис",
+        "power": "5",
+        "ability": "Шпион"
+      },
+      {
+        "card": "Diikstra",
+        "name": "Сигизмунд Дийкстра",
+        "power": "4",
+        "ability": "Шпион"
+      },
+      {
+        "card": "Jarpen",
+        "name": "Ярпен Зигрин",
+        "power": "2",
+        "ability": ""
+      },
+      {
+        "card": "Primanka",
+        "name": "Приманка",
+        "power": "0",
+        "ability": "Призыв Мстителя (примечание: при попадании в отбой, на столе разыгрывается карта \"Приманенный бес\")"
+      },
+      {
+        "card": "Primanennii_bes",
+        "name": "Приманенный бес ",
+        "power": "8",
+        "ability": "Карта-мститель для карты \"Приманка\" (примечание: не может быть добавлена в колоду)"
+      },
+      {
+        "card": "Pehtura",
+        "name": "Гребаная пехтура",
+        "power": "1",
+        "ability": "Прочная связь (в колоде 3 карты)"
+      },
+      {
+        "card": "Pehota",
+        "name": "Реданский пехотинец",
+        "power": "1",
+        "ability": "(в колоде 2 карты)"
+      },
+      {
+        "card": "Olgerd",
+        "name": "Ольгерд фон Эверек",
+        "power": "6",
+        "ability": "Прилив сил, Проворство"
+      },
+      {
+        "card": "Detmold",
+        "name": "Детмольд",
+        "power": "6",
+        "ability": ""
+      },
+      {
+        "card": "Keira",
+        "name": "Кейра Мец",
+        "power": "5",
+        "ability": ""
+      },
+      {
+        "card": "Sheala",
+        "name": "Шеала де Тансервиль ",
+        "power": "5",
+        "ability": ""
+      },
+      {
+        "card": "Rubaili",
+        "name": "Рубайлы из Кринфрида",
+        "power": "5",
+        "ability": "Прочная связь (в колоде 3 карты)"
+      },
+      {
+        "card": "Gunter_tma",
+        "name": "Гюнтер О’Димм: тьма",
+        "power": "4",
+        "ability": "Двойник (в колоде 3 карты)"
+      },
+      {
+        "card": "Sheldon",
+        "name": "Шелдон Скаггс",
+        "power": "4",
+        "ability": ""
+      },
+      {
+        "card": "Sabrina",
+        "name": "Сабрина Глевиссиг",
+        "power": "4",
+        "ability": ""
+      },
+      {
+        "card": "Katapulta",
+        "name": "Катапульта",
+        "power": "8",
+        "ability": "Прочная связь (в колоде 2 карты)"
+      },
+      {
+        "card": "Ballista",
+        "name": "Баллиста",
+        "power": "6",
+        "ability": "(в колоде 2 карты)"
+      },
+      {
+        "card": "Trebushet",
+        "name": "Требушет",
+        "power": "6",
+        "ability": ""
+      },
+      {
+        "card": "Osadnaya_bashnya",
+        "name": "Осадная башня",
+        "power": "6",
+        "ability": "(в колоде 2 карты)"
+      },
+      {
+        "card": "Lekar",
+        "name": "Лекарь Бурой Хоругви",
+        "power": "5",
+        "ability": "Медик"
+      },
+      {
+        "card": "Gunter_o_dimm",
+        "name": "Гюнтер О’Димм",
+        "power": "2",
+        "ability": "Двойник (примечание: использование этой карты вызовет на поле все карты \"Гюнтер О'Димм: Тьма\", однако сама эта карта не вызывается на игровое поле использованием карты \"Гюнтер О'Димм: Тьма\")"
+      },
+      {
+        "card": "Taler",
+        "name": "Талер",
+        "power": "1",
+        "ability": "Шпион"
+      },
+      {
+        "card": "Osadnii_master",
+        "name": "Каэдвенский осадный мастер",
+        "power": "1",
+        "ability": "Прилив сил (в колоде 3 карты)"
+      },
+      {
+        "card": "Yasnoe_nebo",
+        "name": "Ясное небо",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Moroz",
+        "name": "Мороз",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Mgla",
+        "name": "Мгла",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Liven",
+        "name": "Ливень",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Kazn",
+        "name": "Казнь",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Rog",
+        "name": "Командирский рог",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Pygalo",
+        "name": "Чучело",
+        "power": "",
+        "ability": ""
+      }
+    ]
+  },
+  {
+    "name": "nilfgaard",
+    "title": "Колода фракции «Нильфгаард»",
+    "heroes": [
+      {
+        "card": "Emgir_1",
+        "name": "Эмгыр вар Эмрейс Йож из Эрленвальда",
+        "power": "",
+        "ability": "Возьмите из вашей колоды Ливень и сыграйте эту карту немедленно"
+      },
+      {
+        "card": "Emgir_2",
+        "name": "Эмгыр вар Эмрейс Император Нильфгаарда",
+        "power": "",
+        "ability": "Посмотрите три случайные карты из руки противника"
+      },
+      {
+        "card": "Emgir_3",
+        "name": "Эмгыр вар Эмрейс Белое Пламя",
+        "power": "",
+        "ability": "Отменяет эффект умения вражеского лидера"
+      },
+      {
+        "card": "Emgir_4",
+        "name": "Эмгыр вар Эмрейс Властелин Юга",
+        "power": "",
+        "ability": "Возьмите карту из отбоя вашего соперника"
+      },
+      {
+        "card": "Emgir_5",
+        "name": "Эмгыр вар Эмрейс Завоеватель Севера",
+        "power": "",
+        "ability": "Умения, воскрешающие отряд, восстанавливают случайно выбранный отряд. Карта действует на обоих игроков"
+      },
+      {
+        "card": "Geralt",
+        "name": "Геральт из Ривии",
+        "power": "15",
+        "ability": "Герой"
+      },
+      {
+        "card": "Tsirilla",
+        "name": "Цирилла",
+        "power": "15",
+        "ability": "Герой"
+      },
+      {
+        "card": "Leto",
+        "name": "Лето из Гулеты",
+        "power": "10",
+        "ability": "Герой"
+      },
+      {
+        "card": "Menno",
+        "name": "Менно Коегоорн",
+        "power": "10",
+        "ability": "Герой, Медик"
+      },
+      {
+        "card": "Morvan",
+        "name": "Морван Воорхис",
+        "power": "10",
+        "ability": "Герой"
+      },
+      {
+        "card": "Tibor",
+        "name": "Тибор Эггебрахт",
+        "power": "10",
+        "ability": "Герой"
+      },
+      {
+        "card": "Triss",
+        "name": "Трисс Меригольд",
+        "power": "7",
+        "ability": "Герой"
+      },
+      {
+        "card": "Ennifer",
+        "name": "Йеннифер из Венгерберга",
+        "power": "7",
+        "ability": "Герой, Медик"
+      },
+      {
+        "card": "Avallakh",
+        "name": "Аваллак'х",
+        "power": "0",
+        "ability": "Герой, шпион"
+      },
+      {
+        "card": "Willen",
+        "name": "Виллентретенмерт",
+        "power": "7",
+        "ability": "Казнь"
+      },
+      {
+        "card": "Stefan",
+        "name": "Стефан Скеллен",
+        "power": "9",
+        "ability": "Шпион"
+      },
+      {
+        "card": "Shilyard",
+        "name": "Шилярд Фиц-Остерлен",
+        "power": "7",
+        "ability": "Шпион"
+      },
+      {
+        "card": "Vesemir",
+        "name": "Весемир",
+        "power": "6",
+        "ability": ""
+      },
+      {
+        "card": "Kagir",
+        "name": "Кагыр Маур аэп Каеллах",
+        "power": "6",
+        "ability": ""
+      },
+      {
+        "card": "Olgerd",
+        "name": "Ольгерд фон Эверек",
+        "power": "6",
+        "ability": "Прилив сил, Проворство"
+      },
+      {
+        "card": "Regis",
+        "name": "Эмиель Регис",
+        "power": "5",
+        "ability": ""
+      },
+      {
+        "card": "Molodoi_poslannik",
+        "name": "Молодой посланник",
+        "power": "5",
+        "ability": "Прочная связь (в колоде 2 карты)"
+      },
+      {
+        "card": "Zoltan",
+        "name": "Золтан Хивай",
+        "power": "5",
+        "ability": ""
+      },
+      {
+        "card": "Vatie",
+        "name": "Ватьe де Ридо",
+        "power": "4",
+        "ability": "Шпион"
+      },
+      {
+        "card": "Rainfarn",
+        "name": "Раинфарн",
+        "power": "4",
+        "ability": ""
+      },
+      {
+        "card": "Morteizen",
+        "name": "Мортейзен",
+        "power": "3",
+        "ability": ""
+      },
+      {
+        "card": "Brigada",
+        "name": "Бригада \"Импера\"",
+        "power": "3",
+        "ability": "Прочная связь (в колоде 4 карты)"
+      },
+      {
+        "card": "Vreemde",
+        "name": "Вреемде",
+        "power": "2",
+        "ability": ""
+      },
+      {
+        "card": "Jaskier",
+        "name": "Лютик",
+        "power": "2",
+        "ability": "Командирский рог"
+      },
+      {
+        "card": "Kavaleriya",
+        "name": "Кавалерия \"Наузикаа\"",
+        "power": "2",
+        "ability": "Прочная связь (в колоде 3 карты)"
+      },
+      {
+        "card": "Primanka",
+        "name": "Приманка",
+        "power": "0",
+        "ability": "Призыв Мстителя (примечание: при попадании в отбой, на столе разыгрывается карта \"Приманенный бес\")"
+      },
+      {
+        "card": "Primanennii_bes",
+        "name": "Приманенный бес",
+        "power": "8",
+        "ability": "Карта-мститель для карты \"Приманка\" (примечание: не может быть добавлена в колоду)"
+      },
+      {
+        "card": "Luchnik",
+        "name": "Лучник Черной Пехоты",
+        "power": "10",
+        "ability": "(в колоде 2 карты)"
+      },
+      {
+        "card": "Assire",
+        "name": "Ассире вар Анагыд",
+        "power": "6",
+        "ability": ""
+      },
+      {
+        "card": "Fringiliya",
+        "name": "Фрингилья Виго",
+        "power": "6",
+        "ability": ""
+      },
+      {
+        "card": "Renuald",
+        "name": "Ренуальд аэп Матсен",
+        "power": "5",
+        "ability": ""
+      },
+      {
+        "card": "Tsintiya",
+        "name": "Цинтия",
+        "power": "4",
+        "ability": ""
+      },
+      {
+        "card": "Vangemar",
+        "name": "Вангемар",
+        "power": "4",
+        "ability": ""
+      },
+      {
+        "card": "Gunter_tma",
+        "name": "Гюнтер О’Димм: тьма",
+        "power": "4",
+        "ability": "Двойник (в колоде 3 карты)"
+      },
+      {
+        "card": "Puttkammer",
+        "name": "Путткаммер",
+        "power": "3",
+        "ability": ""
+      },
+      {
+        "card": "Albrix",
+        "name": "Альбрых",
+        "power": "2",
+        "ability": ""
+      },
+      {
+        "card": "Svirs",
+        "name": "Свирс",
+        "power": "2",
+        "ability": ""
+      },
+      {
+        "card": "Poddergka",
+        "name": "Лучная поддержка",
+        "power": "1",
+        "ability": "Медик (в колоде 2 карты)"
+      },
+      {
+        "card": "Scorpion",
+        "name": "Большой огненный скорпион",
+        "power": "10",
+        "ability": ""
+      },
+      {
+        "card": "Saper",
+        "name": "Сапер",
+        "power": "6",
+        "ability": ""
+      },
+      {
+        "card": "Ognennii_scorpion",
+        "name": "Огненный скорпион",
+        "power": "5",
+        "ability": ""
+      },
+      {
+        "card": "Petrariya",
+        "name": "Сгнившая петрария",
+        "power": "3",
+        "ability": ""
+      },
+      {
+        "card": "Gunter_o_dimm",
+        "name": "Гюнтер О’Димм",
+        "power": "2",
+        "ability": "Двойник (примечание: использование этой карты вызовет на поле все карты \"Гюнтер О'Димм: Тьма\", однако сама эта карта не вызывается на игровое поле использованием карты Гюнтер \"О'Димм: Тьма\")"
+      },
+      {
+        "card": "Osadnaya_poddergka",
+        "name": "Осадная поддержка",
+        "power": "0",
+        "ability": "Медик"
+      },
+      {
+        "card": "Yasnoe_nebo",
+        "name": "Ясное небо",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Moroz",
+        "name": "Мороз",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Mgla",
+        "name": "Мгла",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Liven",
+        "name": "Ливень",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Kazn",
+        "name": "Казнь",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Rog",
+        "name": "Командирский рог",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Pygalo",
+        "name": "Чучело",
+        "power": "",
+        "ability": ""
+      }
+    ]
+  },
+  {
+    "name": "scoatael",
+    "title": "Колода фракции «Скоя’таэли»",
+    "heroes": [
+      {
+        "card": "Francesca_1",
+        "name": "Францеска Финдабаир Королева Дол Блатанны",
+        "power": "",
+        "ability": "Позволяет уничтожить самый сильный рукопашный отряд противника, если общая сила его рукопашных отрядов равна или больше 10"
+      },
+      {
+        "card": "Francesca_2",
+        "name": "Францеска Финдабаир Маргаритка из Долин",
+        "power": "",
+        "ability": "Позволяет взять дополнительную карту в начале боя"
+      },
+      {
+        "card": "Francesca_3",
+        "name": "Францеска Финдабаир Истинная эльфка",
+        "power": "",
+        "ability": "Позволяет взять из колоды Мороз и немедленно сыграть его"
+      },
+      {
+        "card": "Francesca_4",
+        "name": "Францеска Финдабаир Прекраснейшая",
+        "power": "",
+        "ability": "Позволяет удвоить силу всех дальнобойных отрядов"
+      },
+      {
+        "card": "Francesca_5",
+        "name": "Францеска Финдабаир Надежда Aen Seidhe",
+        "power": "",
+        "ability": "Перемещает проворные отряды в ряд, где их сила максимальна (не влияет на отряды, уже находящиеся в таком ряду)"
+      },
+      {
+        "card": "Geralt",
+        "name": "Геральт из Ривии",
+        "power": "15",
+        "ability": "Герой"
+      },
+      {
+        "card": "Tsirilla",
+        "name": "Цирилла",
+        "power": "15",
+        "ability": "Герой"
+      },
+      {
+        "card": "Isengrim",
+        "name": "Исенгрим Фаоильтиарна",
+        "power": "10",
+        "ability": "Герой, Прилив сил"
+      },
+      {
+        "card": "Saesentessis",
+        "name": "Саэсентессис",
+        "power": "10",
+        "ability": "Герой"
+      },
+      {
+        "card": "Eitne",
+        "name": "Эитнэ",
+        "power": "10",
+        "ability": "Герой"
+      },
+      {
+        "card": "Iorvet",
+        "name": "Иорвет",
+        "power": "10",
+        "ability": "Герой"
+      },
+      {
+        "card": "Triss",
+        "name": "Трисс Меригольд",
+        "power": "7",
+        "ability": "Герой"
+      },
+      {
+        "card": "Ennifer",
+        "name": "Йеннифер из Венгерберга",
+        "power": "7",
+        "ability": "Герой, Медик"
+      },
+      {
+        "card": "Avallakh",
+        "name": "Аваллак'х",
+        "power": "0",
+        "ability": "Герой, шпион"
+      },
+      {
+        "card": "Willen",
+        "name": "Виллентретенмерт",
+        "power": "7",
+        "ability": "Казнь"
+      },
+      {
+        "card": "Vesemir",
+        "name": "Весемир",
+        "power": "6",
+        "ability": ""
+      },
+      {
+        "card": "Dennis",
+        "name": "Деннис Кранмер",
+        "power": "6",
+        "ability": ""
+      },
+      {
+        "card": "Poddergka_gavenkarov",
+        "name": "Поддержка гавенкаров",
+        "power": "5",
+        "ability": "Двойник (в колоде 3 карты)"
+      },
+      {
+        "card": "Maxakamskie_dobrovoltsi",
+        "name": "Махакамские добровольцы",
+        "power": "5",
+        "ability": "(в колоде 5 карт)"
+      },
+      {
+        "card": "Zoltan",
+        "name": "Золтан Хивай",
+        "power": "5",
+        "ability": ""
+      },
+      {
+        "card": "Regis",
+        "name": "Эмиель Регис",
+        "power": "5",
+        "ability": ""
+      },
+      {
+        "card": "Krasnolud",
+        "name": "Краснолюд-застрельщик",
+        "power": "3",
+        "ability": "Двойник (в колоде 3 карты)"
+      },
+      {
+        "card": "Jaskier",
+        "name": "Лютик",
+        "power": "2",
+        "ability": "Командирский рог"
+      },
+      {
+        "card": "Primanka",
+        "name": "Приманка",
+        "power": "0",
+        "ability": "Призыв Мстителя (примечание: при попадании в отбой, на столе разыгрывается карта \"Приманенный бес\")"
+      },
+      {
+        "card": "Primanennii_bes",
+        "name": "Приманенный бес",
+        "power": "8",
+        "ability": "Карта-мститель для карты \"Приманка\" (примечание: не может быть добавлена в колоду)"
+      },
+      {
+        "card": "Olgerd",
+        "name": "Ольгерд фон Эверек",
+        "power": "6",
+        "ability": "Прилив сил, Проворство"
+      },
+      {
+        "card": "Barklai",
+        "name": "Барклай Эльс",
+        "power": "6",
+        "ability": "Проворство"
+      },
+      {
+        "card": "Sledopit_iz_dol_Blatanni",
+        "name": "Следопыт из Дол Блатанны",
+        "power": "6",
+        "ability": "Проворство (в колоде 3 карты)"
+      },
+      {
+        "card": "Yaevinn",
+        "name": "Яевинн",
+        "power": "6",
+        "ability": "Проворство"
+      },
+      {
+        "card": "Filavandrel",
+        "name": "Филавандрель",
+        "power": "6",
+        "ability": "Проворство"
+      },
+      {
+        "card": "Brigada_Vrixedd",
+        "name": "Бригада \"Врихедд\"",
+        "power": "5",
+        "ability": "Проворство (в колоде 2 карты)"
+      },
+      {
+        "card": "Milva",
+        "name": "Мильва",
+        "power": "10",
+        "ability": "Прилив сил"
+      },
+      {
+        "card": "Ida_Emean",
+        "name": "Ида Эмеан",
+        "power": "6",
+        "ability": ""
+      },
+      {
+        "card": "Kadet_Vrixedda",
+        "name": "Кадет \"Врихедда\"",
+        "power": "4",
+        "ability": ""
+      },
+      {
+        "card": "Luhnik_iz_dol_Blatanni",
+        "name": "Лучник из Дол Блатанны",
+        "power": "4",
+        "ability": ""
+      },
+      {
+        "card": "Gunter_tma",
+        "name": "Гюнтер О’Димм: тьма",
+        "power": "4",
+        "ability": "Двойник (в колоде 3 карты)"
+      },
+      {
+        "card": "Kiaran",
+        "name": "Киаран аэп Эасниллен",
+        "power": "3",
+        "ability": "Проворство"
+      },
+      {
+        "card": "Elfiiskii_zastrelshik",
+        "name": "Эльфийский застрельщик",
+        "power": "2",
+        "ability": "Двойник (в колоде 3 карты)"
+      },
+      {
+        "card": "Toruvel",
+        "name": "Торувьель",
+        "power": "2",
+        "ability": ""
+      },
+      {
+        "card": "Riordain",
+        "name": "Риордаин",
+        "power": "1",
+        "ability": ""
+      },
+      {
+        "card": "Lekar_gavenkar",
+        "name": "Лекарь-гавенкар",
+        "power": "0",
+        "ability": "Медик (в колоде 3 карты)"
+      },
+      {
+        "card": "Shirru",
+        "name": "Ширру",
+        "power": "8",
+        "ability": "Казнь"
+      },
+      {
+        "card": "Gunter_o_dimm",
+        "name": "Гюнтер О’Димм",
+        "power": "2",
+        "ability": "Двойник (примечание: использование этой карты вызовет на поле все карты \"Гюнтер О'Димм: Тьма\", однако сама эта карта не вызывается на игровое поле использованием карты \"Гюнтер О'Димм: Тьма\")"
+      },
+      {
+        "card": "Yasnoe_nebo",
+        "name": "Ясное небо",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Moroz",
+        "name": "Мороз",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Mgla",
+        "name": "Мгла",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Liven",
+        "name": "Ливень",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Kazn",
+        "name": "Казнь",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Rog",
+        "name": "Командирский рог",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Pygalo",
+        "name": "Чучело",
+        "power": "",
+        "ability": ""
+      }
+    ]
+  },
+  {
+    "name": "monsters",
+    "title": "Колода фракции «Чудовища»",
+    "heroes": [
+      {
+        "card": "eredin_1",
+        "name": "Эредин Бреакк Глас Командир Дикой Охоты",
+        "power": "",
+        "ability": "Позволяет взять из колоды любую карту погоды и сразу сыграть ее"
+      },
+      {
+        "card": "eredin_2",
+        "name": "Эредин Бреакк Глас Убийца Оберона",
+        "power": "",
+        "ability": "Позволяет сбросить 2 карты и взять одну из колоды по выбору"
+      },
+      {
+        "card": "eredin_3",
+        "name": "Эредин Бреакк Глас Владыка Тир на Лиа",
+        "power": "",
+        "ability": "Позволяет вернуть карту из отбоя в руку"
+      },
+      {
+        "card": "eredin_4",
+        "name": "Эредин Бреакк Глас Король Aen Elle",
+        "power": "",
+        "ability": "Позволяет удвоить силу всех рукопашных отрядов"
+      },
+      {
+        "card": "eredin_5",
+        "name": "Эредин Бреакк Глас Вероломный",
+        "power": "",
+        "ability": "Пассивная способность: удваивает силу всех карт шпионов (у обоих игроков)"
+      },
+      {
+        "card": "Geralt",
+        "name": "Геральт из Ривии",
+        "power": "15",
+        "ability": "Герой"
+      },
+      {
+        "card": "Tsirilla",
+        "name": "Цирилла",
+        "power": "15",
+        "ability": "Герой"
+      },
+      {
+        "card": "Draug",
+        "name": "Драуг",
+        "power": "10",
+        "ability": "Герой"
+      },
+      {
+        "card": "Imlerix",
+        "name": "Имлерих",
+        "power": "10",
+        "ability": "Герой"
+      },
+      {
+        "card": "Leshii",
+        "name": "Леший",
+        "power": "10",
+        "ability": "Герой"
+      },
+      {
+        "card": "Keiran",
+        "name": "Кейран",
+        "power": "8",
+        "ability": "Герой, Прилив сил"
+      },
+      {
+        "card": "Triss",
+        "name": "Трисс Меригольд",
+        "power": "7",
+        "ability": "Герой"
+      },
+      {
+        "card": "Ennifer",
+        "name": "Йеннифер из Венгерберга",
+        "power": "7",
+        "ability": "Герой, Медик"
+      },
+      {
+        "card": "Avallakh",
+        "name": "Аваллак'х",
+        "power": "0",
+        "ability": "Герой, шпион"
+      },
+      {
+        "card": "Willen",
+        "name": "Виллентретенмерт",
+        "power": "7",
+        "ability": "Казнь"
+      },
+      {
+        "card": "Vesemir",
+        "name": "Весемир",
+        "power": "6",
+        "ability": ""
+      },
+      {
+        "card": "Vedma_sheptuxa",
+        "name": "Ведьма: Шептуха",
+        "power": "6",
+        "ability": "Двойник"
+      },
+      {
+        "card": "Vedma_pryaxa",
+        "name": "Ведьма: Пряха",
+        "power": "6",
+        "ability": "Двойник"
+      },
+      {
+        "card": "Vedma_kuxarka",
+        "name": "Ведьма: Кухарка",
+        "power": "6",
+        "ability": "Двойник"
+      },
+      {
+        "card": "Bes",
+        "name": "Бес",
+        "power": "6",
+        "ability": ""
+      },
+      {
+        "card": "Pugach",
+        "name": "Пугач",
+        "power": "5",
+        "ability": ""
+      },
+      {
+        "card": "Zoltan",
+        "name": "Золтан Хивай",
+        "power": "5",
+        "ability": ""
+      },
+      {
+        "card": "Regis",
+        "name": "Эмиель Регис",
+        "power": "5",
+        "ability": ""
+      },
+      {
+        "card": "Grifon",
+        "name": "Грифон",
+        "power": "5",
+        "ability": ""
+      },
+      {
+        "card": "Vilohvost",
+        "name": "Вилохвост",
+        "power": "5",
+        "ability": ""
+      },
+      {
+        "card": "Volkolak",
+        "name": "Волколак",
+        "power": "5",
+        "ability": ""
+      },
+      {
+        "card": "Morovaya_deva",
+        "name": "Моровая дева",
+        "power": "5",
+        "ability": ""
+      },
+      {
+        "card": "Vampiri_katakan",
+        "name": "Вампиры: катакан",
+        "power": "5",
+        "ability": "Двойник"
+      },
+      {
+        "card": "Vampiri_bruksa",
+        "name": "Вампиры: брукса",
+        "power": "4",
+        "ability": "Двойник"
+      },
+      {
+        "card": "Vampiri_ekimma",
+        "name": "Вампиры: экимма",
+        "power": "4",
+        "ability": "Двойник"
+      },
+      {
+        "card": "Vampiri_fleder",
+        "name": "Вампиры: фледер",
+        "power": "4",
+        "ability": "Двойник"
+      },
+      {
+        "card": "Vampiri_garkain",
+        "name": "Вампиры: гаркаин",
+        "power": "4",
+        "ability": "Двойник"
+      },
+      {
+        "card": "Igosha",
+        "name": "Игоша",
+        "power": "4",
+        "ability": ""
+      },
+      {
+        "card": "Glavoglaz",
+        "name": "Главоглаз",
+        "power": "4",
+        "ability": "Двойник (в колоде 3 карты, примечание: в некоторых колодах встречается в осадном ряду)"
+      },
+      {
+        "card": "Jaskier",
+        "name": "Лютик",
+        "power": "2",
+        "ability": "Командирский рог"
+      },
+      {
+        "card": "Tymannik",
+        "name": "Туманник",
+        "power": "2",
+        "ability": ""
+      },
+      {
+        "card": "Naker",
+        "name": "Накер",
+        "power": "2",
+        "ability": "Двойник (в колоде 3 карты)"
+      },
+      {
+        "card": "Gyl",
+        "name": "Гуль",
+        "power": "1",
+        "ability": "Двойник (в колоде 3 карты)"
+      },
+      {
+        "card": "Primanka",
+        "name": "Приманка",
+        "power": "0",
+        "ability": "Призыв Мстителя (примечание: при попадании в отбой, на столе разыгрывается карта \"Приманенный бес\")"
+      },
+      {
+        "card": "Primanennii_bes",
+        "name": "Приманенный бес",
+        "power": "8",
+        "ability": "Карта-мститель для карты \"Приманка\" (примечание: не может быть добавлена в колоду)"
+      },
+      {
+        "card": "Olgerd",
+        "name": "Ольгерд фон Эверек",
+        "power": "6",
+        "ability": "Прилив сил, Проворство"
+      },
+      {
+        "card": "Garpiya_keleno",
+        "name": "Гарпия келено",
+        "power": "2",
+        "ability": "Проворство"
+      },
+      {
+        "card": "Garpiya",
+        "name": "Гарпия",
+        "power": "2",
+        "ability": "Проворство"
+      },
+      {
+        "card": "Prints_gaba",
+        "name": "Принц-жаба",
+        "power": "7",
+        "ability": "Казнь"
+      },
+      {
+        "card": "Kladbishenskaya_baba",
+        "name": "Кладбищенская баба",
+        "power": "5",
+        "ability": ""
+      },
+      {
+        "card": "Gunter_tma",
+        "name": "Гюнтер О’Димм: тьма",
+        "power": "4",
+        "ability": "Двойник (в колоде 3 карты)"
+      },
+      {
+        "card": "Gargyliya",
+        "name": "Гаргулья",
+        "power": "2",
+        "ability": ""
+      },
+      {
+        "card": "Vasilisk",
+        "name": "Василиск",
+        "power": "2",
+        "ability": ""
+      },
+      {
+        "card": "Viverna",
+        "name": "Виверна",
+        "power": "2",
+        "ability": ""
+      },
+      {
+        "card": "Endriaga",
+        "name": "Эндриага",
+        "power": "2",
+        "ability": ""
+      },
+      {
+        "card": "Ogromnii_glavoglaz",
+        "name": "Огромный главоглаз",
+        "power": "6",
+        "ability": "Двойник (примечание: использование этой карты вызовет на поле все карты \"Главоглаз\", однако сама эта карта не вызывается на игровое поле использованием карты \"Главоглаз\")"
+      },
+      {
+        "card": "Elemental_ognya",
+        "name": "Элементаль огня",
+        "power": "6",
+        "ability": ""
+      },
+      {
+        "card": "Elemental_zemli",
+        "name": "Элементаль земли",
+        "power": "6",
+        "ability": ""
+      },
+      {
+        "card": "Ledyanoi_velikan",
+        "name": "Ледяной Великан",
+        "power": "5",
+        "ability": ""
+      },
+      {
+        "card": "Gunter_o_dimm",
+        "name": "Гюнтер О’Димм",
+        "power": "2",
+        "ability": "Двойник (примечание: использование этой карты вызовет на поле все карты \"Гюнтер О'Димм: Тьма\", однако сама эта карта не вызывается на игровое поле использованием карты \"Гюнтер О'Димм: Тьма\")"
+      },
+      {
+        "card": "Yasnoe_nebo",
+        "name": "Ясное небо",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Moroz",
+        "name": "Мороз",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Mgla",
+        "name": "Мгла",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Liven",
+        "name": "Ливень",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Kazn",
+        "name": "Казнь",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Rog",
+        "name": "Командирский рог",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Pygalo",
+        "name": "Чучело",
+        "power": "",
+        "ability": ""
+      }
+    ]
+  },
+  {
+    "name": "skellige",
+    "title": "Колода фракции «Скеллиге»",
+    "heroes": [
+      {
+        "card": "Korol_Bran",
+        "name": "Король Бран",
+        "power": "",
+        "ability": "В плохую погоду отряды утрачивают половину боевой силы"
+      },
+      {
+        "card": "Krax_an_krait",
+        "name": "Крах Ан Крайт",
+        "power": "",
+        "ability": "Отбой обоих игроков тасуется и возвращается в колоды"
+      },
+      {
+        "card": "Geralt",
+        "name": "Геральт из Ривии",
+        "power": "15",
+        "ability": "Герой"
+      },
+      {
+        "card": "Tsirilla",
+        "name": "Цирилла",
+        "power": "15",
+        "ability": "Герой"
+      },
+      {
+        "card": "Heimdall",
+        "name": "Хеймдалль",
+        "power": "11",
+        "ability": "Герой (примечание: эта карта является Мстителем для карты \"Камби\" и не может появиться на поле, если предварительно не была сыграна эта карта)"
+      },
+      {
+        "card": "Hyalmar",
+        "name": "Хьялмар",
+        "power": "10",
+        "ability": "Герой"
+      },
+      {
+        "card": "Keris",
+        "name": "Керис",
+        "power": "10",
+        "ability": "Герой, Двойник (примечание: использование этой карты вызовет на поле все карты \"Воительница клана Друммонд\", однако сама эта карта не вызывается на игровое поле использованием карты \"Воительница клана Друммонд\")"
+      },
+      {
+        "card": "Mishovur",
+        "name": "Мышовур",
+        "power": "8",
+        "ability": "Герой, Мардрём"
+      },
+      {
+        "card": "Triss",
+        "name": "Трисс Меригольд",
+        "power": "7",
+        "ability": "Герой"
+      },
+      {
+        "card": "Ennifer",
+        "name": "Йеннифер из Венгерберга",
+        "power": "7",
+        "ability": "Герой, Медик"
+      },
+      {
+        "card": "Avallakh",
+        "name": "Аваллак'х",
+        "power": "0",
+        "ability": "Герой, шпион"
+      },
+      {
+        "card": "Willen",
+        "name": "Виллентретенмерт",
+        "power": "7",
+        "ability": "Казнь"
+      },
+      {
+        "card": "Vesemir",
+        "name": "Весемир",
+        "power": "6",
+        "ability": ""
+      },
+      {
+        "card": "Lugos_bezumnii",
+        "name": "Лугос Безумный",
+        "power": "6",
+        "ability": ""
+      },
+      {
+        "card": "Voin_klana",
+        "name": "Воин клана ан Крайт",
+        "power": "6",
+        "ability": "Прочная связь (в колоде 3 карты)"
+      },
+      {
+        "card": "Lugos_senii",
+        "name": "Лугос Синий",
+        "power": "6",
+        "ability": ""
+      },
+      {
+        "card": "Zoltan",
+        "name": "Золтан Хивай",
+        "power": "5",
+        "ability": ""
+      },
+      {
+        "card": "Regis",
+        "name": "Эмиель Регис",
+        "power": "5",
+        "ability": ""
+      },
+      {
+        "card": "Udalrik",
+        "name": "Удальрик",
+        "power": "4",
+        "ability": ""
+      },
+      {
+        "card": "Voitelnitsa_klana",
+        "name": "Воительница клана Друммонд",
+        "power": "4",
+        "ability": "Прочная связь (в колоде 3 карты)"
+      },
+      {
+        "card": "Kyznets_klana",
+        "name": "Кузнец клана Тордарох",
+        "power": "4",
+        "ability": ""
+      },
+      {
+        "card": "Skald_klana",
+        "name": "Скальд клана Хэймэй",
+        "power": "4",
+        "ability": ""
+      },
+      {
+        "card": "Svanrige",
+        "name": "Сванриге",
+        "power": "4",
+        "ability": ""
+      },
+      {
+        "card": "Donar_an_xindar",
+        "name": "Донар ан Хиндар",
+        "power": "4",
+        "ability": ""
+      },
+      {
+        "card": "Berserk",
+        "name": "Берсерк",
+        "power": "4",
+        "ability": "Берсерк"
+      },
+      {
+        "card": "Obrativshiisya_vildkarl",
+        "name": "Обратившийся вильдкарл",
+        "power": "14",
+        "ability": "Прилив сил (примечание: эта карта не может быть добавлена в колоду, выкладывается вместо обратившегося Берсерка)"
+      },
+      {
+        "card": "Birna_Bran",
+        "name": "Бирна Бран",
+        "power": "2",
+        "ability": "Медик"
+      },
+      {
+        "card": "Jaskier",
+        "name": "Лютик",
+        "power": "2",
+        "ability": "Командирский рог"
+      },
+      {
+        "card": "Primanka",
+        "name": "Приманка",
+        "power": "0",
+        "ability": "Призыв Мстителя (примечание: при попадании в отбой, на столе разыгрывается карта \"Приманенный бес\")"
+      },
+      {
+        "card": "Primanennii_bes",
+        "name": "Приманенный бес",
+        "power": "8",
+        "ability": "Карта-мститель для карты \"Приманка\" (примечание: не может быть добавлена в колоду)"
+      },
+      {
+        "card": "Kambi",
+        "name": "Камби",
+        "power": "0",
+        "ability": "Призыв Мстителя (примечание: при попадании в отбой, на столе разыгрывается карта \"Хеймдалль\")"
+      },
+      {
+        "card": "Olaf",
+        "name": "Олаф",
+        "power": "12",
+        "ability": "Прилив сил, Проворство"
+      },
+      {
+        "card": "Olgerd",
+        "name": "Ольгерд фон Эверек",
+        "power": "6",
+        "ability": "Прилив сил, Проворство"
+      },
+      {
+        "card": "Pirat_iz_klana",
+        "name": "Пират из клана Димун",
+        "power": "6",
+        "ability": "Казнь"
+      },
+      {
+        "card": "Lushnik_klana",
+        "name": "Лучник клана Броквар",
+        "power": "6",
+        "ability": "(в колоде 3 карты)"
+      },
+      {
+        "card": "Legkii_drakkar",
+        "name": "Легкий драккар",
+        "power": "4",
+        "ability": "Двойник (в колоде 3 карты)"
+      },
+      {
+        "card": "Gunter_tma",
+        "name": "Гюнтер О’Димм: тьма",
+        "power": "4",
+        "ability": "Двойник (в колоде 3 карты)"
+      },
+      {
+        "card": "Molodoi_berserk",
+        "name": "Молодой берсерк",
+        "power": "2",
+        "ability": "Берсерк (в колоде 3 карты)"
+      },
+      {
+        "card": "Obrativshiisya_molodoi_vildkarl",
+        "name": "Обратившийся молодой вильдкарл",
+        "power": "8",
+        "ability": "Прочная связь (примечание: эта карта не может быть добавлена в колоду, выкладывается вместо обратившегося Молодого берсерка)"
+      },
+      {
+        "card": "Voennii_drakkar",
+        "name": "Военный драккар",
+        "power": "6",
+        "ability": "Прочная связь (в колоде 3 карты)"
+      },
+      {
+        "card": "Holger",
+        "name": "Хольгер Чернорукий",
+        "power": "4",
+        "ability": ""
+      },
+      {
+        "card": "Draig_bon_dhu",
+        "name": "Драйг Бон Дху",
+        "power": "2",
+        "ability": "Командирский рог"
+      },
+      {
+        "card": "Gunter_o_dimm",
+        "name": "Гюнтер О’Димм",
+        "power": "2",
+        "ability": "Двойник (примечание: использование этой карты вызовет на поле все карты \"Гюнтер О'Димм: Тьма\", однако сама эта карта не вызывается на игровое поле использованием карты \"Гюнтер О'Димм: Тьма\")"
+      },
+      {
+        "card": "Yasnoe_nebo",
+        "name": "Ясное небо",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Moroz",
+        "name": "Мороз",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Mgla",
+        "name": "Мгла",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Liven",
+        "name": "Ливень",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Shtorm",
+        "name": "Шторм со Скеллиге",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Mardrem",
+        "name": "Мардрём",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Kazn",
+        "name": "Казнь",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Rog",
+        "name": "Командирский рог",
+        "power": "",
+        "ability": ""
+      },
+      {
+        "card": "Pygalo",
+        "name": "Чучело",
+        "power": "",
+        "ability": ""
+      }
+    ]
+  }
+]
