@@ -13,8 +13,8 @@ export default class MyDocument extends Document {
                     {/*<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>*/}
                     {/*<link rel="manifest" href="/site.webmanifest"/>*/}
                     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff0000"/>
-                    <meta name="apple-mobile-web-app-title" content="GvintGame"/>
-                    <meta name="application-name" content="GvintGame"/>
+                    <meta name="apple-mobile-web-app-title" content="gwentgame"/>
+                    <meta name="application-name" content="gwentgame"/>
                     <meta name="msapplication-TileColor" content="#ffffff"/>
                     <meta name="theme-color" content="#ffffff"/>
                     <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>

@@ -46,7 +46,7 @@ const Cards = (props: CardsProps) => {
                             <li key={i}>
                                 <a onClick={e => goto(e, c.name)} className={styles.group}>{c.title}</a>
                                 <a onClick={e => goto(e, c.name)}>
-                                    <Image src={`/${c.name}/${c.name}.png`} alt={c.name} width={"326px"}
+                                    <Image src={`${c.name}/${c.name}.png`} alt={c.name} width={"326px"}
                                            height={"642"}/>
                                 </a>
                             </li>
@@ -74,7 +74,7 @@ const Cards = (props: CardsProps) => {
                                     <div>
                                         <a onClick={e => goto(e, c.name)} className={styles.group}>{c.title}</a>
                                         <a onClick={e => goto(e, c.name)}>
-                                            <Image src={`/${c.name}/${c.name}.png`} alt={c.name} width={220}
+                                            <Image src={`${c.name}/${c.name}.png`} alt={c.name} width={220}
                                                    height={390}/>
                                         </a>
                                     </div>

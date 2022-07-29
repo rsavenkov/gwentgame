@@ -16,8 +16,8 @@ const Footer = () => {
             <div>
                 <div>
                     <Image
-                        src={`/common/gvintgame.png`}
-                        alt="gvintgame" width={"354px"} height={"53px"}/>
+                        src={`common/gwentgame.png`}
+                        alt="gwentgame" width={"354px"} height={"53px"}/>
                 </div>
                 <div>
                     <img className={styles.logo} src={'/logo.svg'} alt='logo'/>

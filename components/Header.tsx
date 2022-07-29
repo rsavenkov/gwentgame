@@ -39,8 +39,8 @@ const Header = () => {
                 <Link href="/"><a className={classes.logo}><img src={'/logo.svg'}
                                                                 alt='logo'/></a></Link>
                 <div>
-                    <Image src={`/common/gvintgame.png`}
-                        alt="gvintgame" width={"354px"} height={"53px"}/>
+                    <Image src={`common/gwentgame.png`}
+                        alt="gwentgame" width={"354px"} height={"53px"}/>
                     <div className={classes.menuMain}>
                         <a onMouseOver={e => setShowSubMenu(true)}
                            style={router.pathname.includes("cards") || router.pathname.includes("docs") || router.pathname.includes("tutorials") ? active : {cursor: 'pointer'}}>
