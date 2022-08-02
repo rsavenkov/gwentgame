@@ -1,13 +1,21 @@
 import nodemailer from "nodemailer";
 
+/**
+ * Отправка письма
+ *
+ * @param req
+ * @param res
+ */
 export default function (req, res) {
+
+    const params = JSON.parse(req.body)
 
     const transporter = nodemailer.createTransport({
         port: 465,
-        host: "smtp.gmail.com",
+        host: "smtp.yandex.com",
         auth: {
-            user: '',
-            pass: '',
+            user: process.env.email,
+            pass: process.env.password,
         },
         secure: true,
     });
@@ -15,41 +23,22 @@ export default function (req, res) {
     const mailData = {
         from: process.env.email,
         to: process.env.email,
-        subject: `Message From 123`,
-        // subject: `Message From ${req.body.name}`,
-        // text: req.body.message + " | Sent from: " + req.body.email,
-        // html: `<div>${req.body.message}</div><p>Sent from: ${req.body.email}</p>`
+        subject: `Заявка на участие в турнире gwentgame от ${params.name}`,
+        html: `<ul style="list-style: none">
+<li>Имя:&nbsp;<strong>${params.name}</strong></li>
+<li>Ник:&nbsp;<strong>${params.login}</strong></li>
+<li>Телефон:&nbsp;<strong>${params.phone}</strong></li>
+<li>Email:&nbsp;<strong>${params.email}</strong></li>
+</ul>`
     }
 
     transporter.sendMail(mailData, function (err, info) {
-        if (err)
+        if (err) {
             console.log(err)
-        else
+            res.status(500).send()
+        } else {
             console.log(info);
+            res.status(200).send({status: 'ok'})
+        }
     })
-
-    res.send('success')
-    // res.status(200).json({ name: 'John Doe' })
-
-
-    // let nodemailer = require('nodemailer')
-
-
-    /*const mailData = {
-        from: 'demo email',
-        to: 'your email',
-        subject: `Message From ${req.body.name}`,
-        text: req.body.message + " | Sent from: " + req.body.email,
-        html: `<div>${req.body.message}</div><p>Sent from: ${req.body.email}</p>`
-    }
-
-    transporter.sendMail(mailData, function (err, info) {
-        if(err)
-            console.log(err)
-        else
-            console.log(info);
-    })
-
-    console.log(req.body)
-    res.send('success')*/
 }

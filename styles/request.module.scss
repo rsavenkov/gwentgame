@@ -127,6 +127,11 @@
 }
 
 .successText, .errorText {
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+}
+
+.successText {
   color: #13CA46;
 }
 
