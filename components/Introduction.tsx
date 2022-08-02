@@ -1,7 +1,6 @@
 import styles from '../styles/Introduction.module.scss'
 import s from '../styles/request.module.scss'
 import Image from "next/image";
-import {useRouter} from "next/router";
 import Dialog from "@material-ui/core/Dialog";
 import {useState} from "react";
 import {RequestForm} from "../pages/onlineRequest";

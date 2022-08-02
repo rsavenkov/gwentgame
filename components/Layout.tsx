@@ -7,7 +7,14 @@ interface LayoutProps {
     children: React.ReactChild;
 }
 
+/**
+ * Project layout
+ *
+ * @param props
+ * @constructor
+ */
 const Layout = (props: LayoutProps) => {
+
     const router = useRouter();
 
     return (
