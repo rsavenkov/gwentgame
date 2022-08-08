@@ -61,7 +61,7 @@ export const RequestForm = () => {
                         </div>
                         <div>
                             <input {...register("login", {required: true})} placeholder="Ник" tabIndex={2}/>
-                            {errors.nickName && <span>Обязательно для заполнения</span>}
+                            {errors.login && <span>Обязательно для заполнения</span>}
                         </div>
                         <div>
                             <input {...register("phone", {required: true})} placeholder="Телефон" tabIndex={3}/>
