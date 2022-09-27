@@ -8,7 +8,7 @@ import type {NextPage} from 'next'
 const Docs: NextPage = () => {
     return (
         <>
-            <h1 style={{color: "white"}}>Документы</h1>
+            <h1 style={{color: "white"}}><a href="/rating.xlsx" download>Рейтинг игроков</a></h1>
             <div style={{height: '600px'}}></div>
         </>
     )

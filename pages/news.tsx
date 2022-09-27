@@ -1,4 +1,6 @@
 import type {NextPage} from 'next'
+import Image from "next/image";
+import styles from '../styles/News.module.scss'
 
 /**
  * Страница с новостями
@@ -7,10 +9,9 @@ import type {NextPage} from 'next'
  */
 const News: NextPage = () => {
     return (
-        <>
-            <h1 style={{color: "white"}}>Новости</h1>
-            <div style={{height: '600px'}}></div>
-        </>
+        <div className={styles.news}>
+            <Image src={`/qualification_1.jpg`} alt="" width={"640px"} height={"640px"}/>
+        </div>
     )
 }
 

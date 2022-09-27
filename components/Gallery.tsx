@@ -5,8 +5,7 @@ import {useState} from "react";
 import s from "../styles/gallery.module.scss";
 import SwiperCore, {Navigation, Pagination} from "swiper";
 
-const docs = ['gallery/1.png', 'gallery/1.png', 'gallery/1.png', 'gallery/1.png', 'gallery/1.png', 'gallery/1.png',
-    'gallery/1.png', 'gallery/1.png', 'gallery/1.png', 'gallery/1.png']
+const pics = ['qualification-1/pic1.jpg', 'qualification-1/pic2.jpg', 'qualification-1/pic3.jpg', 'qualification-1/pic4.jpg']
 
 SwiperCore.use([Navigation, Pagination])
 
@@ -21,17 +20,13 @@ const Gallery = () => {
     const [currentSlide, setCurrentSlide] = useState(1)
 
     return (
-        <>
-            <h1 style={{color: "white"}}>Галерея</h1>
-            <div style={{height: '600px'}}></div>
-        </>
-        /*<div className={s.container + (router.pathname.includes('gallery') ? ` ${s.container__page}` : '')}>
-            <h1 className={s.title}>Галерея</h1>
+        <div className={s.container + (router.pathname.includes('gallery') ? ` ${s.container__page}` : '')}>
+            <h1 className={s.title}>24 сентября 2022</h1>
             <div className={s.carouselWrapper}>
                 <a className={s.prev}
-                   style={{cursor: currentSlide <= docs.length && currentSlide != 1 ? 'pointer' : 'default'}}>
+                   style={{cursor: currentSlide <= pics.length && currentSlide != 1 ? 'pointer' : 'default'}}>
                     <Image
-                        src={`/prev-${currentSlide <= docs.length && currentSlide != 1 ? 'active' : 'disable'}.png`}
+                        src={`/prev-${currentSlide <= pics.length && currentSlide != 1 ? 'active' : 'disable'}.png`}
                         alt="" width={"100px"} height={"50px"}/>
                 </a>
                 <Swiper slidesPerView={1} spaceBetween={0} initialSlide={currentSlide}
@@ -56,7 +51,7 @@ const Gallery = () => {
                     <SwiperSlide className={s.mobileHide}>
                     </SwiperSlide>
                     {
-                        docs.map((d, i) => {
+                        pics.map((d, i) => {
                             return (
                                 <SwiperSlide key={i} className={s.carousel__item}>
                                     <div className={s.carousel__item__zoom}>
@@ -75,17 +70,20 @@ const Gallery = () => {
                        .${s.carousel} .swiper-slide-active .${s.carousel__item__zoom} {
                            transform: scale(1);
                        }
+                       .swiper-slide {
+                            margin: auto;
+                        }
                     `
                     }
                 </style>
                 <a className={s.next}
-                   style={{cursor: currentSlide < docs.length ? 'pointer' : 'default'}}>
-                    <Image src={`/next-${currentSlide < docs.length ? 'active' : 'disable'}.png`} alt=""
+                   style={{cursor: currentSlide < pics.length ? 'pointer' : 'default'}}>
+                    <Image src={`/next-${currentSlide < pics.length ? 'active' : 'disable'}.png`} alt=""
                            width={"100px"} height={"50px"}/>
                 </a>
-                <h3 className={s.number}>{(currentSlide) + '/' + docs.length}</h3>
+                <h3 className={s.number}>{(currentSlide) + '/' + pics.length}</h3>
             </div>
-        </div>*/
+        </div>
     )
 }
 
